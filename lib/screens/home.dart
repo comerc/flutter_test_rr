@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         viewMode = HomeScreenViewMode.grid;
                       });
                     },
-                    icon: Icon(Icons.grid_view_rounded),
+                    icon: Icon(Icons.grid_3x3_rounded),
                   ),
                 ],
               ),
@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildGridView() {
     return GridView.builder(
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
+        crossAxisCount: 3,
       ),
       itemCount: titles.length,
       itemBuilder: _buildCard,
@@ -143,7 +143,7 @@ class _HomeScreenState extends State<HomeScreen> {
         leading: Icon(icons[index]),
         title: Text(titles[index]),
         subtitle: Text('subtitle #$index'),
-        dense: viewMode == HomeScreenViewMode.list,
+        dense: true,
       ),
     );
   }
