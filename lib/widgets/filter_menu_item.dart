@@ -36,23 +36,26 @@ class FilterMenuItemState<T> extends State<FilterMenuItem> {
           },
         );
       },
-      child: Row(
-        children: [
-          SizedBox(width: 16),
-          Expanded(child: widget.title),
-          SizedBox(width: 8),
-          Switch(
-            value: value,
-            onChanged: (bool value) {
-              setState(
-                () {
-                  this.value = value;
-                  widget.onChanged(value);
-                },
-              );
-            },
-          ),
-        ],
+      child: Container(
+        color: Colors.transparent,
+        child: Row(
+          children: [
+            SizedBox(width: 16),
+            Expanded(child: widget.title),
+            SizedBox(width: 8),
+            Switch(
+              value: value,
+              onChanged: (bool value) {
+                setState(
+                  () {
+                    this.value = value;
+                    widget.onChanged(value);
+                  },
+                );
+              },
+            ),
+          ],
+        ),
       ),
     );
   }
