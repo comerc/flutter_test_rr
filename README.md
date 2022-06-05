@@ -1,16 +1,8 @@
 # flutter_test_rr
 
-A new Flutter project.
+[Почитал про Dataverse](https://youtu.be/L7NM_cB0xjU)
+[Выполнил тестовое задание - 1 серия](https://youtu.be/Izc_VSb9ofw)
+[Выполнил тестовое задание - 2 серия](https://youtu.be/6ShCgnQptFQ)
+[Выполнил тестовое задание - 3 серия](https://youtu.be/I8IzOv1v-Vw)
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
